@@ -1,36 +1,55 @@
 body {
-  /* margin: 0px !important; 
+  /*margin: 0px !important; 
   padding: 0px !important;*/
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Wix Madefor Text ', sans-serif !important;
   font-weight: 400;
   text-align: center;
 }
 
-.container {
+.container-fluid  {
   padding:0;
   margin: 0 !important;
 }
 
+header {
+  margin-top: 2%;
+}
 
-h1, h2 {
-  font-weight: 400;
+h1 {
+  font-size: 9rem;
+  font-family: 'Darumadrop One', sans-serif;
+  color: white;
+  letter-spacing: -.03em;
+  line-height: 0.5;
+  padding-bottom: 3rem;
+}
+
+#stage {
+  border-bottom: 1rem solid #2F2F2F;
+  border-left: 0.5rem solid #2F2F2F;
+  border-right: 0.5rem solid #2F2F2F;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  
+}
+
+.light {
+  color: white;
+  display: inline-block;
+  transform: rotate(-10deg);
+}
+
+.stagelights {
+  width: 15%;
+  width: 5rem;
 }
 
 nav ul li {
   display: inline-block;
 }
 
-#homeimg {
-  height: 300px;
-  width: auto;
-}
-
-header {
-  background-color:#222FE6 ;
-  color: #fff;
-}
-
-header, section {
+section {
   padding: 5% 5% 0px 5%;
 }
 
@@ -39,7 +58,7 @@ header, section {
 }
 
 .active {
-  color: #222FE6;
+  color: #6B6A68 !important;
   background-color: #fff;
   border-radius: 3px 3px 0px 0px;
 }
@@ -51,4 +70,51 @@ header, section {
 
 .bor {
   border: solid 1px blue;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item:not(.active)::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #A7FAC0;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item:not(.active):hover::after {
+  width: 100%;
+}
+
+.bg-image{
+  margin-top: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 5px solid  #A7FAC0;
+  border-top: 5px solid  #A7FAC0;
+  background-image: url('../imgs/gday2.png');
+  height: 600px;
+  background-position: center;
+  opacity: 0.8;
+}
+
+/* For width 992px and larger: */
+@media only screen and (min-width: 992px) {
+.bg-image{
+  background-image: url('../imgs/gday6.png');
+  background-position: 0 0;
+  }
 }
