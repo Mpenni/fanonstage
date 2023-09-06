@@ -34,12 +34,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/2bda44fd4c.js" crossorigin="anonymous"></script>
+  <!-- fvicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 </head>
 
 <body>
   <header>
     <!--  Enable for rating <script
       src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_ec7ff9c7dab5bfa638a0f0ca3b8acf"></script> -->
+    <!--  Start NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +65,8 @@
         </ul>
       </div>
     </nav>
-
+    <!--  End NavBar -->
+    <!--  Start Header Banner -->
     <div class="d-flex p-5 bg-image rounded-3 justify-content-center align-items-end">
       <div>
         <div class="d-flex h-100">
@@ -70,6 +77,7 @@
         </div>
       </div>
     </div>
+    <!--  End Header Banner -->
     <!-- About section-->
     <section id="about">
       <div class="container px-4">
@@ -85,7 +93,8 @@
             </p>
           </div>
           <div class="col-xl-4">
-            <img id="aboutImg" class="img-fluid" src="imgs/gday.png" alt="A young fan on a Green Day live stage plays guitar while Billie Joe Armstrong is singing" />
+            <img id="aboutImg" class="img-fluid" src="imgs/gday.png"
+              alt="A young fan on a Green Day live stage plays guitar while Billie Joe Armstrong is singing" />
           </div>
         </div>
       </div>
@@ -95,20 +104,19 @@
     <!-- Start item -->
     <div class="row item">
       <div class="col-xl-8 ytframe">
-        <!-- 16:9 -->
+        <!-- 16:9 VIDEO 001 -->
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-            src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0" title="Kiss Guy (YAYO Sanchez) plays Monkeywrench w/ Foo Fighters Austin TX 4-18-18"></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"
+            title="Kiss Guy (YAYO Sanchez) plays Monkeywrench w/ Foo Fighters Austin TX 4-18-18"></iframe>
         </div>
         <!-- Start code for 4:3 embedding
           <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"></iframe>
           </div>
         </div>
-      
          End code for 4:3 -->
       </div>
-
+      <!-- Start item card info-->
       <div class="col-xl-4 d-flex flex-column justify-content-between">
         <div class="mb-auto">
           <div class="card-body infotext">
@@ -135,17 +143,135 @@
             </div>
           </div>
         </div>
-
+        <!-- rating -->
         <div class="rate">
-          <!-- rating -->
           <div class="row py-2">
-
             <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
             <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="avarage">-->
             <div class="col-lg-8 ">
             </div>
           </div>
+          <div class="row  py-2 align-items-center clickToRate">
+            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
+            <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="user">-->
+            <div class="col-lg-8 "> Click to rate!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Start item -->
+    <div class="row item">
+      <div class="col-xl-8 ytframe">
+        <!-- 16:9 VIDEO 002 -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/uCHM-G4xFoc?si=QGdJ91JKkxhKICYp&amp;start=205"
+            title="Kiss Guy (YAYO Sanchez) plays Monkeywrench w/ Foo Fighters Austin TX 4-18-18"></iframe>
+        </div>
+        <!-- Start code for 4:3 embedding
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"></iframe>
+          </div>
+        </div>
+         End code for 4:3 -->
+      </div>
+      <!-- Start item card info-->
+      <div class="col-xl-4 d-flex flex-column justify-content-between">
+        <div class="mb-auto">
+          <div class="card-body infotext">
+            <h4 class="card-title">Foo Fighters</h4>
+            <p class="card-text text-justify">A brave boy with Kiss makeup picks up a guitar and juggles dexterously
+              on stage!</p>
+            <div class="row justify-content-center  py-2">
+              <div class="col-lg-4">Date:
+              </div>
+              <div class="col-lg-8">18-04-2018
+              </div>
+            </div>
+            <div class="row justify-content-center py-2">
+              <div class="col-lg-4">Place:
+              </div>
+              <div class="col-lg-8">Austin (USA)
+              </div>
+            </div>
+            <div class="row justify-content-center py-2">
+              <div class="col-lg-4">Fan name:
+              </div>
+              <div class="col-lg-8">Yayo Sanchez
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- rating -->
+        <div class="rate">
+          <div class="row py-2">
+            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
+            <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="avarage">-->
+            <div class="col-lg-8 ">
+            </div>
+          </div>
+          <div class="row  py-2 align-items-center clickToRate">
+            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
+            <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="user">-->
+            <div class="col-lg-8 "> Click to rate!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start item -->
+    <div class="row item lastItem">
+      <div class="col-xl-8 ytframe">
+        <!-- 16:9 VIDEO 003 -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YdRad6Eclr0?si=gdhYjQyLdbziTMpR"
+            title="Kiss Guy (YAYO Sanchez) plays Monkeywrench w/ Foo Fighters Austin TX 4-18-18"></iframe>
+        </div>
+        <!-- Start code for 4:3 embedding
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"></iframe>
+          </div>
+        </div>
+         End code for 4:3 -->
+      </div>
+      <!-- Start item card info-->
+      <div class="col-xl-4 d-flex flex-column justify-content-between">
+        <div class="mb-auto">
+          <div class="card-body infotext">
+            <h4 class="card-title">Foo Fighters</h4>
+            <p class="card-text text-justify">A brave boy with Kiss makeup picks up a guitar and juggles dexterously
+              on stage!</p>
+            <div class="row justify-content-center  py-2">
+              <div class="col-lg-4">Date:
+              </div>
+              <div class="col-lg-8">18-04-2018
+              </div>
+            </div>
+            <div class="row justify-content-center py-2">
+              <div class="col-lg-4">Place:
+              </div>
+              <div class="col-lg-8">Austin (USA)
+              </div>
+            </div>
+            <div class="row justify-content-center py-2">
+              <div class="col-lg-4">Fan name:
+              </div>
+              <div class="col-lg-8">Yayo Sanchez
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- rating -->
+        <div class="rate">
+          <div class="row py-2">
+            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
+            <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="avarage">-->
+            <div class="col-lg-8 ">
+            </div>
+          </div>
           <div class="row  py-2 align-items-center clickToRate">
             <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
             <!-- Enable for rating  <div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="user">-->
@@ -157,75 +283,53 @@
     </div>
 
 
-
-    <!-- Start item -->
-    <div class="row item">
-      <div class="col-xl-8 ytframe">
-        <!-- 16:9 -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"
-          src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0" title="Kiss Guy (YAYO Sanchez) plays Monkeywrench w/ Foo Fighters Austin TX 4-18-18"></iframe>
-        </div>
-        <!-- Start code for 4:3
-          <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"></iframe>
-          </div>
-        </div>
-      
-         End code for 4:3 -->
-      </div>
-
-      <div class="col-xl-4 d-flex flex-column justify-content-between">
-        <div class="mb-auto">
-          <div class="card-body infotext">
-            <h4 class="card-title">Foo Fighters</h4>
-            <p class="card-text text-justify">A brave boy with Kiss makeup picks up a guitar and juggles dexterously
-              on stage!</p>
-            <div class="row justify-content-center  py-2">
-              <div class="col-lg-4">Date:
-              </div>
-              <div class="col-lg-8">18-04-2018
-              </div>
-            </div>
-            <div class="row justify-content-center py-2">
-              <div class="col-lg-4">Place:
-              </div>
-              <div class="col-lg-8">Austin (USA)
-              </div>
-            </div>
-            <div class="row justify-content-center py-2">
-              <div class="col-lg-4">Fan name:
-              </div>
-              <div class="col-lg-8">Yayo Sanchez
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="rate">
-          <!-- rating -->
-          <div class="row py-2">
-
-            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
-            <!--<div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="avarage">-->
-            <div class="col-lg-8 ">
-            </div>
-          </div>
-
-          <div class="row  py-2 align-items-center clickToRate">
-            <div class="col-lg-4 "><img class="img-fluid" src="imgs/rate.png" alt="" /></div>
-            <!--<div class="col-lg-8" data-lyket-type="rate" data-lyket-id="001" data-lyket-show-rating="user">-->
-            <div class="col-lg-8 "> Click to rate!
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
   </main>
+
+
+  <footer class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container pt-4 share">
+      Share this site!
+      <!-- Section: Social media -->
+      <div class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://mpenni.github.io/fanonstage/" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://twitter.com/intent/tweet?url=https://mpenni.github.io/fanonstage/&text=Fun%20On%20Stage!"
+          role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.pinterest.com/pin/create/button/?url=https://github.com/Mpenni/fanonstage&description=No%20Descript" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-pinterest"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/?url=https://github.com/Mpenni/fanonstage" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Mpenni/fanonstage" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);"> -->
+    <div class="text-center text-dark p-3" style="background-color: #A7FAC0">
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Mpenni/fanonstage"
+        role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+      © 2023 Copyright DF for <a class="text-dark"
+        href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/423208" target="_blank"> UNIBO University Project</a>.
+      All credits
+      <a class="text-dark" href="https://mdbootstrap.com/">here</a>.
+    </div>
+    <!-- Copyright -->
+  </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -235,8 +339,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

@@ -34,28 +34,11 @@ h2 {
   border-radius: 10px;
 }
 
-#stage {
-  border-bottom: 1rem solid #2F2F2F;
-  border-left: 0.5rem solid #2F2F2F;
-  border-right: 0.5rem solid #2F2F2F;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 80%;
-  
-}
-
 .light {
   color: white;
   display: inline-block;
   transform: rotate(-10deg);
 }
-
-.stagelights {
-  width: 15%;
-  width: 5rem;
-}
-
-
 
 #aboutImg {
   display: none;
@@ -155,12 +138,13 @@ main {
     }
   }
 
-
-
-
 .item {
   padding: 10% 0 10% 0;
   border-bottom:  4px double #A7FAC0 ;
+}
+
+.lastItem {
+  border-bottom: none !important;
 }
 
 .ytframe {
@@ -200,4 +184,8 @@ main {
 
 .clickToRate {
   border: 2px solid #A7FAC0; 
+}
+
+.share{
+  color: #000000;
 }
