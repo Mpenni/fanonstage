@@ -200,6 +200,42 @@ main {
   background-color: var(--mygreen);
 }
 
+/* For JS caption: */
+
+.imgc {width: 100%}
+
+.full-width-image-atf .content-main-image {
+  position: relative;
+  color: #fff;
+}
+
+.full-width-image-atf .image-caption-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  padding: 15px 20px;
+}
+.full-width-image-atf .image-caption-wrap:before {
+  content: '\f05a';
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 2em;
+}
+.full-width-image-atf .image-caption {
+  opacity: 0;
+  padding-right: 10px;
+}
+.full-width-image-atf .image-caption-wrap:hover .image-caption {
+  opacity: 1;
+}
+.full-width-image-atf .image-caption-wrap:hover {
+  background: black !important;
+  cursor: pointer;
+}
+.full-width-image-atf .content-main-image, .full-width-image-atf .content-main-image * { transition: 0.4s ease all }
+
 /* For DOC page: */
 
 .pDoc  {
