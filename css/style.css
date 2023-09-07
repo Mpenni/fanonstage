@@ -1,3 +1,9 @@
+:root {
+  /*--mygreen: #A7FAC0;*/
+  --mygreen: #A2B27D;
+}
+
+
 body {
   /*margin: 0px !important; 
   padding: 0px !important;*/
@@ -27,7 +33,7 @@ h1 {
 }
 
 h2 {
-  background-color: #A7FAC0; opacity:0.7;
+  background-color: var(--mygreen); opacity:0.7;
   color: black;
   padding: 8px 12px;
   font-style: italic;
@@ -65,8 +71,6 @@ section {
 
 .active {
   color: #6B6A68 !important;
-  background-color: #fff;
-  border-radius: 3px 3px 0px 0px;
 }
 
 .nounderline {
@@ -75,7 +79,7 @@ section {
 }
 
 .bor {
-  border: solid 1px blue;
+  border: solid 1px black;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -94,7 +98,7 @@ section {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #A7FAC0;
+  background-color: var(--mygreen);
   width: 0%;
   content: "";
   height: 4px;
@@ -110,8 +114,8 @@ section {
   margin-bottom: 5%;
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 5px solid  #A7FAC0;
-  border-top: 5px solid  #A7FAC0;
+  border-bottom: 5px solid var(--mygreen);
+  border-top: 5px solid var(--mygreen);
   background-image: url('../imgs/gday2.png');
   height: 600px;
   background-position: center;
@@ -140,7 +144,7 @@ main {
 
 .item {
   padding: 10% 0 10% 0;
-  border-bottom:  4px double #A7FAC0 ;
+  border-bottom:  4px double var(--mygreen) ;
 }
 
 .lastItem {
@@ -165,7 +169,7 @@ main {
 }
 
 .card-title {
-  border-bottom: 4px solid #A7FAC0; 
+  border-bottom: 4px solid var(--mygreen); 
   padding-bottom: 7px; 
 }
 
@@ -183,9 +187,47 @@ main {
 }
 
 .clickToRate {
-  border: 2px solid #A7FAC0; 
+  border: 2px solid var(--mygreen); 
 }
 
 .share{
   color: #000000;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.Copyright {
+  background-color: var(--mygreen);
+}
+
+/* For DOC page: */
+
+.pDoc  {
+  text-align: justify;
+  margin-top: 5%;
+  line-height: 1.8;
+}
+
+.tDoc {
+  margin-top:10%;
+}
+
+.text-justify {
+  line-height: 1.8;
+}
+
+ul li {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.imgBan {
+  width: 50px;
+  margin-top: 5%; 
+}
+
+.lgreen {
+  background-color: var(--mygreen);
+  width: 5%;
+  display: inline;
 }

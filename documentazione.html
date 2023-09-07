@@ -1,16 +1,379 @@
- Stacey Patton
-online photo editor: https://www.photopea.com/
-pairing colors: https://color.adobe.com/it/create/color-wheel
-https://get.slidemagic.com/blog/2009/04/global-ban-comic-sans-movement.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- INIZIO Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JR6DNRP7G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-4JR6DNRP7G");
+    </script>
+    <!-- FINE Google tag (gtag.js) -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fan On Stage</title>
+    <meta name="description"
+        content="The fans are on the stage! For their '15 Minutes of Fame', where they join their favorite musicians on stage.">
+    <meta name="keywords"
+        content="Music, Live, Fan, 15 Minutes of Fame, fan on stage, celebrity, moments of glory, music, fleeting fame">
+    <meta name="google-site-verification" content="pvNzoE8B6Z15la_R7VarRcxmBJ7BT8NTHqRmdu_xoDw" />
+    <meta property="og:title" content="Fun On Stage">
+    <meta property="og:description"
+        content="The website that collects and shares the moments when fans become famous on the stage of their favorite singers.">
+    <meta property="og:image" content="https://mpenni.github.io/fanonstage/imgs/og-image.png">
+    <meta property="og:url" content="https://mpenni.github.io/fanonstage/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/2bda44fd4c.js" crossorigin="anonymous"></script>
+    <!-- fvicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <!--  Enable for rating <script
+      src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_ec7ff9c7dab5bfa638a0f0ca3b8acf"></script> -->
+        <!--  Start NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">DOCUMENTAZIONE <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="credits.html">CREDITS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--  End NavBar -->
+        <!--  Start Header Banner -->
+        <div class="d-flex p-5 bg-image rounded-3 justify-content-center align-items-end">
+            <div>
+                <div class="d-flex h-100">
+                    <h1>FAN <span class="light align-bottom">on </span> STAGE</h1>
+                </div>
+                <div class="d-flex h-100">
+                    <h2>"In the future, everyone will be world-famous for 15 minutes" (A.Warhol) </h2>
+                </div>
+            </div>
+        </div>
+        <!--  End Header Banner -->
+    </header>
+    <main>
+        <h2 class="tDoc">Abstract</h2>
+
+        <p class="pDoc">La musica è emozione. Un concerto dal vivo rappresenta l'apice di questa espressione. Per un
+            fan, partecipare attivamente a questo momento è un'esperienza unica e indescrivibile.
+
+            L'obiettivo di questo sito web è raccogliere questi momenti, proponendo una serie di video catalogati per
+            condividere e diffondere queste esperienze straordinarie, nel tentativo di trasmettere quelle emozioni.
+
+            Il valore aggiunto consiste sia nella semplicità di utilizzo, che nella possibilità di catalogare il
+            materiale.
+            Inoltre, se opportunamente aggiornato, di mantenere un'alta dinamicità attraverso l'aggiornamento continuo
+            dei contenuti.</p>
+
+        <h2 class="tDoc">Project Management Plan</h2>
+
+        <h3 class="pDoc">1. Benchmarking</h3>
+
+        <ol>
+            <li>
+                <p class="pDoc">Obiettivo:</p>
+                <p class="text-justify">
+                    Il progetto nasce come prototipo di sito che raccoglie video di fan che partecipano attivamente ad
+                    uno show live, con obiettivo di
+                    diffondere e condividere questi momenti unici, non frequenti ed emozionanti, creando un collettore
+                    di questa tipologia di esperienza non convenzionale.
+                </p>
+            </li>
+            <li>
+                <p class="pDoc">Target utente:
+                <ul>
+                    <li>Fascia over 30, di qualsiasi genere, orientamento sessuale e reddito.
+                </ul>
+                </p>
+            </li>
+            <li>
+                <p class="pDoc">Competitors:</p>
+                <p class="text-justify">Non esiste un competitor diretto, tuttavia esistono alcuni articoli di giornale
+                    online
+                    che raccolgono video di fan che partecipano attivamente ad un concerto, come quelli di
+                    <a class="text-secondary"
+                        href="https://flypaper.soundfly.com/discover/10-times-invited-fans-crushed-it-on-stage/"
+                        target="_blank">Flypaper</a> e
+                    <a class="text-secondary"
+                        href="https://www.guitarworld.com/features/10-times-fans-were-invited-to-play-guitar-onstage-and-killed-it"
+                        target="_blank">Guitarworld</a>.
+                    In questo caso, essendo articoli di giornale online, offrono un contenuto di tipo statico e non
+                    aggiornabile. Inoltre non prevedono alcun tipo di rating o catalogazione.
+                </p>
+                <p class="text-justify">Un altro competitor può essere un canale Youtube dedicato, ma non ne è stato
+                    identificato alcuno, mentre son presenti nella piattaforma alcune playlist a riguardo, sparse e non
+                    strutturate. Rispetto ai competitor principali in questo caso è garantità la dinamicità di
+                    aggiornamento, il rating classico semplificato di YouTube (like) e
+                    la possibilità di interazione con i commenti.
+                </p>
 
 
+            </li>
+        </ol>
+
+        <h3 class="pDoc">2. Struttura e layout</h3>
+
+        <ol>
+            <li>
+                <p class="pDoc">Architettura del sito:
+                <ul>
+                    <li><a class="text-secondary" href="index.html">HOME (index.html)</a>
+                        <ul>
+                            <li><a class="text-secondary" href="documentation.html">DOCUMENTATION</a></li>
+                            <li><a class="text-secondary" href="credits.html">CREDITS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                </p>
+            </li>
+            <li>
+                <p class="pDoc">Wireframe:
+                    <img id="aboutImg" class="img-fluid" src="imgs/wireframeHome.png"
+                        alt="a wireframe of home page of this website" />
+                </p>
+            </li>
+            <li>
+                <p class="pDoc">Look and Feel:</p>
+                <p class="text-justify">E' stato scelto un <strong>layout pulito e minimale</strong>, curando
+                    l'<strong>adattibilità</strong> a seconda dei device utilizzati, modificando o eliminando
+                    dinamicamente alcuni
+                    elementi per garantire una miglior lettura.
+                </p>
+                <p class="text-justify">Sono stati utilizzati due <strong>font </strong><a class="text-secondary"
+                        href="https://fonts.google.com/" target="_blank">Google</a>: il titolo è in stile
+                    <i>"handwriting"</i>, scelta per riflettere l' "estrosità" del tema trattato.
+                    Questa font è stata trovata su un sito di <a class="text-secondary"
+                        href="https://femmebot.github.io/google-type/" target="_blank">font-pairing</a>, a cui era
+                    abbinata una
+                    font simile a quella scelta come font principale (<a class="text-secondary"
+                        href="https://fonts.google.com/specimen/Rubik?query=rubik" target="_blank">Rubik</a>). Questa è
+                    stata
+                    scelta rispetto a quella suggerita per pure ragioni di gusto personale, senza stravolgere la
+                    soluzione proposta.
+                    Nonostante sia di tipo <i>"sans-serif"</i> (come quella suggerita), è stata volutamente confermata
+                    in quanto la tipologia di
+                    sito non prevede paragrafi lunghi.
+                </p>
+                <p class="text-justify">Per i <strong>colori</strong> invece è stato preferito un sito bianco e nero
+                    (con
+                    tonalità di grigio), in quanto i video embedded portano già un contributo forte a riguardo. E' stato
+                    introdotto un verde leggero <span class="lgreen bor">&nbsp;&nbsp;&nbsp;</span> in quache background
+                    e bordatura, variando opacità a seconda dell'esigenza,
+                    nel tentativo di creare uno stile identificativo. La tonalità è stata scelta tra quelle proposte
+                    inserendo il nero e le tonalità di grigio già presenti
+                    nel sito in uno strumento online di <a class="text-secondary"
+                        href="https://color.adobe.com/it/create/color-wheel" target="_blank">Adobe</a> per l'abbinamento
+                    dei colori.
+                </p>
+            </li>
+        </ol>
+
+        <h3 class="pDoc">3. Linguaggi e strumenti</h3>
+
+        <ol>
+            <li>
+                <p class="pDoc">Linguaggi web utilizzati: <i>HTML5, CSS3, javascrtipt.</i></p>
+            </li>
+            <li>
+                <p class="pDoc">Strumenti tecnologici a supporto della progettazione:
+                    <a class="text-secondary" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
+                    <a class="text-secondary" href="https://github.com/Mpenni/fanonstage" target="_blank">GitHub</a>,
+                    <a class="text-secondary" href="https://code.visualstudio.com/" target="_blank">Visual Studio
+                        Code</a>,
+                    <a class="text-secondary" href="hthttps://analytics.google.com/" target="_blank">Google
+                        Analytics</a>,
+                    <a class="text-secondary" href="https://lyket.dev/" target="_blank">Lyket</a> (per il servizio di
+                    rating, attualmente sospeso poichè superate le visualizzazioni gratuite).
+                </p>
+            </li>
+            <li>
+                <p class="pDoc">Nella pagina <a class="text-secondary" href="credits.html"">Credits</a> è possibile trovare tutti i riferimenti agli elementi utilizzati nel sito.</p>
+            </li>
+        </ol>
+
+        <h2 class=" tDoc">Communication Strategy</h2>
+
+        <h3 class="pDoc">1. Background</h3>
+
+        <p class="pDoc">In base a quanto emerso nell'analisi sui competitors, si decide in primo luogo
+            che verrà effettuata una <strong>catalogazione</strong> dei contenuti, che si potrà
+            estendere
+            all'introduzione di <strong>tag</strong> specifici e una sezione per cercare i contenuti
+            eventualmente con
+            dei <strong>filtri</strong> specifici. Viene data la possibilità di <strong>rating</strong>
+            del contenuto, in modo da poter
+            creare delle <strong>classifiche</strong> in base ai video più apprezzati, o, eventualmente,
+            di distribuire
+            nella pagina i contenuti in
+            base alla preferenza, in modo da dare più visibilità ai video più graditi.
+            Rispetto alle soluzioni esistenti, si punta sulla <strong>dinamicità</strong> e
+            aggiornamento continuo dei
+            contenuti, puntando sempre su un'interfaccia di utilizzo molto <strong>semplice ed
+                intuitiva</strong>.
+        </p>
+
+        <h3 class="pDoc">2. Obiettivi comunicativi</h3>
+        <p class="pDoc">E' stata usata una famosa frase ad effetto di Warhol apertura, opportunamente
+            orientata
+            al target primario prefissato, che dimostra come ora ("<i>nel futuro</i>"), ognuno possa
+            diventare famoso per un breve periodo soprattutto grazie alla
+            capillarità e potenza del web. Nel nostro caso più specifico inoltre ricorda anche
+            direttamente
+            come il fan sul palco stia vivendo il suo piccolo momento di celebrità.</p>
+        <p class="text-justify">Vedere queste situazioni inusuali, dove <i>la star</i> offre
+            un'opportunità
+            irripetibile ad un fan, è a mio parere molto emozionante e il mio intento è di diffondere
+            questa emozione ed offrire nello stesso tempo un piccolo momento di leggerezza.</p>
+        <p class="text-justify">Considerando l'obiettivo, si vuole quindi tentare di offrire all'utente
+            un <i>break</i>, che sia coinvolgente, ma allo stesso tempo spensierato.
+            Si può puntare in termini comunicativi per la promozione su parole e concetti come
+            "emozione", "relax", "un giorno da vip", oltre naturalmente alla già citata frase
+            d'apertura.</p>
+        <p class="text-justify">In termini quantitativi si vogliono raggiungere almeno i <strong>100
+                utenti (visite uniche)</strong>.
+        </p>
+
+        <h3 class="pDoc">3. Target audience e messaggio</h3>
+
+        <p class="pDoc">Il target è ampio e diversificato: chiunque navighi online può amare la musica.
+            Questa vasta varietà di utenti potenziali rende il sito altamente competitivo.
+            Nonostante questo, il target scelto si concentra sulla fascia <strong>over 30</strong>, in
+            quanto i più
+            giovani prediligono strumenti più competitivi per
+            queste tipologie di raccolte, con formati molto brevi, più veloci e di rapida fruizione.</p>
+        <p class="text-justify"> Il sito si rivolge ad utenti di qualsiasi genere, orientamento sessuale
+            e
+            reddito.
+            La fascia d'età scelta risponde bene ai <strong>contenuti video</strong> ed è solita
+            utilizzare piattaforme
+            come <i>Facebook</i> e <i>Youtube</i>, dove si può concentrare la promozione, oltre ad una
+            eventuale
+            produzione grafica dedicata.</p>
+        <p class="text-justify"> Al fine di ampliare esponenzialmente la platea dei potenziali utenti,
+            si è scelta come
+            lingua
+            principale l'<strong>inglese</strong>. Nonostante ciò, il sito rimane molto intuitivo e
+            fruibile anche da chi
+            non conosce la lingua, in quanto i contenuti sono video e le parti di testo minimali.
+            Oltre gli utenti casuali, gli utenti secondari sono gli over 50, che troveranno comunque un
+            sito di semplice navigazione (praticamente <i>single-page</i>) <strong>chiaro e con
+                contenuti di
+                facile fruizione</strong> (<i>scoll-play-stop-rate</i>).
+        </p>
+
+        <h3 class="pDoc">4. Promozione</h3>
+
+        <p class="pDoc">In base al target primario identificato, si preferisce concentrare la promozione
+            sui social <i>Facebook</i> e <i>Youtube</i>.
+            Nel primo caso è stato fatto un post di promozione, mentre nel secondo caso si potrebbe
+            creare un canale direttamente collegato al sito.
+            Il sito inoltre è stato pubblicizzato attraverso gruppi <i>whatsApp</i> formati da persone
+            mie coetanee.
+            Sul sito stesso, nella sezione del <i>footer</i>, è presente la possibilità di condividere
+            il sito sui principali social,
+            al fine di incentivare la promozione da parte degli stessi utilizzatori.
+        </p>
+
+        <h3 class="pDoc">5. Valutazione dei risultati</h3>
+        <p class="pDoc">A livello quantitativo l'obiettivo è stato raggiunto in quanto si sono
+            registrati X accessi univoci, come da screenshot.</p>
+        <p class="text-justify">Non è possibile verificare la tipologia e altre caratteristiche degli
+            utenti in
+            quanto l'accesso non è registrato e i dati sono puramente quelli di navigazione
+            (provenienza, user-agent, etc).</p>
+            <a class="text-secondary" href="https://get.slidemagic.com/blog/2009/04/global-ban-comic-sans-movement.html" target="_blank">
+            <img class="imgBan" src="imgs/comic.jpeg"
+            alt="comic san ban icon" />
+            </a>
+    </main>
 
 
-src="https://www.youtube.com/embed/Z4b6BPaO944?si=bI1yzbwuYbTKEYV0"
-https://www.youtube.com/embed/uCHM-G4xFoc?si=QGdJ91JKkxhKICYp&amp;start=205
-https://www.youtube.com/embed/YdRad6Eclr0?si=gdhYjQyLdbziTMpR
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container pt-4 share">
+            <!-- Section: Social media -->
+            <div class="mb-4">
+                Share this site on
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://mpenni.github.io/fanonstage/"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
 
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://twitter.com/intent/tweet?url=https://mpenni.github.io/fanonstage/&text=Fun%20On%20Stage!"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
-light favicon: https://www.vhv.rs/viewpic/TTRJxRb_stage-lighting-clip-art-stage-light-icon-png/
-icon: https://fontawesome.com/
-footer style: https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.pinterest.com/pin/create/button/?url=https://github.com/Mpenni/fanonstage&description=No%20Descript"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-pinterest"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.instagram.com/?url=https://github.com/Mpenni/fanonstage" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Mpenni/fanonstage"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright <div class="text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);"> -->
+        <div class="text-center text-secondary p-3 Copyright">
+            <a class="btn btn-link btn-floating btn-lg text-secondary m-1" href="https://github.com/Mpenni/fanonstage"
+                role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            © 2023 Copyright DF for <a class="text-secondary"
+                href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/423208" target="_blank"> UNIBO
+                University Project</a>.
+            All credits
+            <a class="text-secondary" href="credits.html">here</a>.
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
