@@ -30,6 +30,9 @@ h1 {
   line-height: 0.5;
   padding-bottom: 3rem;
   margin: auto ;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 5px 5px 7px #A2B27D;
 }
 
 h2 {
@@ -40,22 +43,41 @@ h2 {
   border-radius: 10px;
 }
 
+h2 span{
+ font-size: 70%;
+}
+
 .light {
   color: white;
   display: inline-block;
   transform: rotate(-10deg);
 }
 
-#aboutImg {
-  display: none;
+.lead {
+  margin-top: 1rem;
 }
+
+#aboutImg {
+  border-radius: 7px;
+  display: none;
+  border: 2px solid var(--mygreen); opacity:0.7;
+  
+}
+
+
 
 /* For width 1200px and larger: */
 @media only screen and (min-width: 1200px) {
     #aboutImg {
       display: block;
     }
-  }
+}
+
+.aboutWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 nav ul li {
   display: inline-block;
@@ -119,7 +141,7 @@ section {
   background-image: url('../imgs/gday2.png');
   height: 600px;
   background-position: center;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 /* For width 992px and larger: */
@@ -149,9 +171,6 @@ main {
     }
   }
 
-
-
-
 .item {
   padding: 10% 0 10% 0;
   border-bottom:  4px double var(--mygreen) ;
@@ -173,6 +192,10 @@ main {
 
     }
   }
+
+iframe {
+  border-radius: 5px;
+}
 
 .infotext {
   text-align: left;
@@ -205,6 +228,8 @@ main {
 
 .clickToRate {
   border: 2px solid var(--mygreen); 
+  border-radius: 5px;
+  font-style: italic;
 }
 
 .share{
@@ -237,7 +262,6 @@ main {
 }
 .full-width-image-atf .image-caption-wrap:before {
   content: '\f05a';
-  font-family: 'Font Awesome 5 Pro';
   font-size: 2em;
 }
 .full-width-image-atf .image-caption {
