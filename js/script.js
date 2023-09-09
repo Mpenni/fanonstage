@@ -10,3 +10,8 @@ const wideImg = document.querySelector('.full-width-image-atf img'),
   caption.innerHTML = captionInnerHTML;
 // Insert on page:
   wideImg.parentNode.appendChild(caption);
+
+  //alert on rating
+  function alertRating() {
+    alert("The rating service is temporarily unavailable");
+  }
